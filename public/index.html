@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc.Me</title>
+   
+    
+    <style>
+      
+body{
+    background-color: aqua  ;
+}
+
+
+h1{
+    margin-top:100px;
+    color: red;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+div{
+    text-align:center;
+    position: relative;
+}
+
+
+input, select{
+    font-size: large;
+    text-align: center;
+    width:15%;
+    margin: 5px;
+    border-radius: 5px;
+    border-color: blue;
+    color:blue;
+    height: 30px;
+}
+
+
+
+#btn{
+    height: 40px;
+    color: red;
+    border-radius: 5px;
+    border-color: red;
+}
+
+
+    </style>
+
+</head>
+<body>
+    
+
+    <h1>Calculator !!</h1>
+
+    <div>
+        
+            <input type="text"   name="one" id="textOne" placeholder="Enter the first number" ><br>
+            <input type="text"   name="two" id="textTwo"  placeholder="Enter the second number" ><br>
+            <select id="op">
+                <option value="addition">+</option>
+                <option value="substraction">-</option>
+                <option value="division" >/</option>
+                <option value="multiplication" >*</option>
+            </select><br>
+            <input type="text"  name="result" id="textResult"  placeholder="Result Here" /><br>
+            <input type="button" value="Press Here" name="button" id="btn" />
+        
+    </div>
+
+
+    <div id="root"></div>
+
+
+</body>
+
+
+
+
+<script  src="./scriptMain.js"></script> 
+<script  src="/my-react-app/src/index.js"></script> 
+
+
+
+</html>
+
